@@ -1,0 +1,10 @@
+<div id="sidebar">
+  Categories<br/>
+
+  <ul>
+    <li (click)="categoryClick('')">All</li>
+    <li *ngFor="let Category of categories" (click)="categoryClick(Category)">
+        <a>{{Category}}</a>
+    </li>
+  </ul>
+</div>

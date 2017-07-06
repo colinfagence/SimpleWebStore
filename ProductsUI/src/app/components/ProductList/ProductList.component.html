@@ -1,0 +1,10 @@
+<div *ngIf="categoryHeading!=''">
+    <h3>Category: {{categoryHeading}}</h3>
+</div>
+<div *ngIf="categoryHeading==''">
+    <h3>Category: All</h3>
+</div>
+<div>
+    <span>Name</span><span class="price" (click)="clickSortPrice()">Price</span>
+</div>
+<product-item *ngFor="let product of products" [singleProduct]="product"></product-item>

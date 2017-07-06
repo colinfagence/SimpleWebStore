@@ -1,0 +1,10 @@
+/*styles for titlebar content only*/
+#sidebar {
+    height: 100%;
+    background-color: #ddd;
+    padding: 10px;
+}
+
+li {
+    cursor: pointer
+}

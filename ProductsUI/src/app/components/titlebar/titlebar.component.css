@@ -1,0 +1,13 @@
+/*styles for titlebar content only*/
+div {
+    height: 100%;
+    background-color: #EEE;
+    border-bottom: 1px black solid;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+    text-align: center;
+}
